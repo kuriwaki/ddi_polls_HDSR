@@ -7,4 +7,6 @@
 
 
 
+data/input/surveys/538/*.csv
 data/output/HDSR-models
+data/output/538-polls_cleaned

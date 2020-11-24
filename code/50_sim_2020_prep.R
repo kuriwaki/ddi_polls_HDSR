@@ -2,8 +2,8 @@ library(tidyverse)
 
 # Data -------
 polls_sub <- readRDS("data/output/538-polls_cleaned/data_2020_sub.Rds") %>%
-  mutate(f_inv_2pty = 1.1*f_inv_2pty,
-         o_hat_2pty = 1.1*o_hat_2pty)
+  mutate(f_inv_2pty = f_inv_2pty,
+         o_hat_2pty = o_hat_2pty)
 
 polls_three_wk <- readRDS("data/output/538-polls_cleaned/data_2020_threeweek.Rds")
 data_2016_beta <- readRDS("data/output/538-polls_cleaned/data_2016_beta.Rds")
